@@ -9,7 +9,7 @@ Para instalar todas las dependencias del proyecto debemos correr:
 
     - http://localhost:8000/get-prime-numbers/?number=10
 
-    ![](readme_imgs/get-prime-numbers.png){width='100px'}
+![](readme_imgs/get-prime-numbers.png){width='100px'}
 
 
     - http://localhost:8000/convert-height/
