@@ -30,14 +30,14 @@ Para instalar todas las dependencias del proyecto debemos correr:
 ## Set Data ##
 
 Nota: Para usar esta url, primero se debe preparar la base de datos, es decir, debe crearse con el nombre conectivity y poner la confoguración adecuada en la variable: 
-DB_ENGINE = create_engine('postgresql://postgres:emjvp@localhost:5432/conectivity') línea 19,
+DB_ENGINE = create_engine('postgresql://postgres:emjvp@localhost:5432/conectivity'),
 esto puede modificarse tomando encuenta la estructura: create_engine('postgresql://{user}:{password}@{host}:{port}/conectivity')
 
+Lo anterior está dentro del settings ubicado en la ruta conectivity/settings.py línea 19.
+
 Además de esto para generar la el modelo del proyecto debe ejecutarse el archivo manage.py de esta forma:
+    python3 manage.py; esto por que SqlAlchemy tuvo que adicionarse; es algo similar a las migraciones.
 
-python3 manage.py; esto por que SqlAlchemy tuvo que adicionarse; es algo similar a las migraciones.
-
-Todo lo anterior dentro del settings ubicado en la ruta conectivity/settings.py
 
 
     - http://localhost:8000/set-data/
