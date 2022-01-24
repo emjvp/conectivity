@@ -29,7 +29,7 @@ Para instalar todas las dependencias del proyecto debemos correr:
 
 ## Set Data ##
 
-Nota: Para usar este primero se debe preparar la base de datos, es decir, debe crearse con el nombre conectivity y poner la confoguración adecuada en la variable: 
+Nota: Para usar esta url, primero se debe preparar la base de datos, es decir, debe crearse con el nombre conectivity y poner la confoguración adecuada en la variable: 
 DB_ENGINE = create_engine('postgresql://postgres:emjvp@localhost:5432/conectivity')
 esto puede modificarse tomando encuenta la estructura: create_engine('postgresql://{user}:{password}@{host}:{port}/conectivity')
 
