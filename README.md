@@ -9,7 +9,7 @@ Para instalar todas las dependencias del proyecto debemos correr:
 
     - http://localhost:8000/get-prime-numbers/?number=10
 
-    ![Get Prime Numbers](get-prime-numbers.png)
+    ![Get Prime Numbers](https://github.com/emjvp/conectivity/blob/master/readme_imgs/get-prime-numbers.png)
 
 
     - http://localhost:8000/convert-height/
