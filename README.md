@@ -7,10 +7,13 @@ Para instalar todas las dependencias del proyecto debemos correr:
 
 # URLS #
 
+## Get Prime Numbers ##
     - http://localhost:8000/get-prime-numbers/?number=10
 
 ![](readme_imgs/get-prime-numbers.png)
 
+
+## Convert Height ##
 
     - http://localhost:8000/convert-height/
 
@@ -24,6 +27,7 @@ Para instalar todas las dependencias del proyecto debemos correr:
 ![](readme_imgs/convert-height.png)
 
 
+## Set Data ##
 
     - http://localhost:8000/set-data/
 
