@@ -29,6 +29,13 @@ Para instalar todas las dependencias del proyecto debemos correr:
 
 ## Set Data ##
 
+Nota: Para usar este primero se debe preparar la base de datos, es decir, debe crearse con el nombre conectivity y poner la confoguración adecuada en la variable: 
+DB_ENGINE = create_engine('postgresql://postgres:emjvp@localhost:5432/conectivity')
+esto puede modificarse tomando encuenta la estructura: create_engine('postgresql://{user}:{password}@{host}:{port}/conectivity')
+
+Todo lo anterior dentro del settings ubicado en la ruta conectivity/settings.py
+
+
     - http://localhost:8000/set-data/
 
     Solicitud de ejemplo:
